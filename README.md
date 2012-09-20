@@ -18,11 +18,6 @@ user.fakeson
 }
 ```
 
-###Command
-```
-fakeson user.fakeson --pretty > user.json
-```
-
 ###Output
 user.json
 ```js
@@ -41,7 +36,7 @@ You can see an example with arrays [here](#array-example).
 ##Installation
 
 ```
-npm install fakeson
+npm install -g fakeson
 ```
 
 ##Usage
