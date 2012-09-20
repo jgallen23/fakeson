@@ -17,6 +17,7 @@
   },
   "main": "lib/fakeson",
   "bin": {
-    "fakeson": "bin/fakeson.js"
+    "fakeson": "bin/fakeson.js",
+    "fakejax": "bin/fakejax.js"
   }
 }
