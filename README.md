@@ -2,25 +2,6 @@
 
 fakeson is a library to create fake json documents for rapid prototyping.
 
-##Installation
-
-```
-npm install fakeson
-```
-
-##Usage
-```
-$ fakeson --help
-
-fakeson 0.0.1
-Usage: fakeson [options] [file]
-
-Options:
-  -p, --pretty  Pretty print json output  [boolean]  [default: false]
-
-$ fakeson user.fakeson --pretty > user.json
-```
-
 ##Example
 
 ###Input
@@ -55,6 +36,35 @@ user.json
 	"status": 0
 }
 ```
+You can see an example with arrays [here](#array-example).
+
+##Installation
+
+```
+npm install fakeson
+```
+
+##Usage
+###CLI
+```
+$ fakeson --help
+
+fakeson 0.0.1
+Usage: fakeson [options] [file]
+
+Options:
+  -p, --pretty  Pretty print json output  [boolean]  [default: false]
+
+$ fakeson user.fakeson --pretty > user.json
+```
+
+###AJAX
+If you don't want to mess with running the cli commands over and over again, there is also a webserver available that will serve up your fakeson files over ajax (with CORS).
+
+```
+fakejax --port 8000 [folder to fakeson files]
+```
+Then you can hit ```http://localhost:8000/user``` and you will see the generated file for user.fakeson.  The results are cached, so they are only generated once.  If you want to change that, just pass in the ```--update``` parameter to the ```fakejax``` command
 
 ##Array Example
 
