@@ -1,0 +1,22 @@
+{
+  "name": "fakeson",
+  "description": "Library for creating fake json documents",
+  "homepage": "http://github.com/jgallen23/fakeson",
+  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgallen23/fakeson.git"
+  },
+  "dependencies": {
+    "mockdata": "0.0.3",
+    "optimist": "~0.3.4"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "lib/fakeson",
+  "bin": {
+    "fakeson": "bin/fakeson.js"
+  }
+}

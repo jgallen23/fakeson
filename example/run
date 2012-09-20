@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node ../bin/fakeson.js user.fakeson --pretty > user.json
+node ../bin/fakeson.js list.fakeson --pretty > list.json

@@ -1,0 +1,9 @@
+{
+	"name": name(),
+	"bio": sentences(5, 10, 3, 8), //(min/max number of sentences, min/max length of words)
+	"username": chars(5, 9),
+	"joined": date({ yearRange: -1 }),
+	"title": title(3, 4),
+	"paid": bool(),
+	"status": range(0, 5)
+}

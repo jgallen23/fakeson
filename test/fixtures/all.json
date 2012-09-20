@@ -1,0 +1,15 @@
+{
+  "chars": chars(5, 9),
+  "name": name(),
+  "num": n(10),
+  "bigNumber": bignumber(5),
+  "site": site(),
+  "url": url(),
+  "date": date({ delimiter: '/' }),
+  "title": title(3, 4),
+  "sentences": sentences(5, 10, 3, 8),
+  "bool": bool(),
+  "color": color(),
+  "word": word(),
+  "range": range(5, 7)
+}
