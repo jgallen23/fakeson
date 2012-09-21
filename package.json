@@ -3,7 +3,7 @@
   "description": "Library for creating fake json documents",
   "homepage": "http://github.com/jgallen23/fakeson",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/jgallen23/fakeson.git"
